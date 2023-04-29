@@ -9,6 +9,7 @@ import org.apache.commons.lang3.math.NumberUtils;
 import it.prova.raccoltafilm.model.Film;
 import it.prova.raccoltafilm.model.Regista;
 import it.prova.raccoltafilm.model.Sesso;
+import it.prova.raccoltafilm.model.Utente;
 
 public class UtilityForm {
 
@@ -42,7 +43,6 @@ public class UtilityForm {
 		result.setDataPubblicazione(parseDateArrivoFromString(dataPubblicazioneStringParam));
 		if (NumberUtils.isCreatable(registaIdStringParam)) {
 			result.setRegista(new Regista(Long.parseLong(registaIdStringParam)));
-//			System.out.println("e stato creato");
 		}
 		return result;
 	}
@@ -56,6 +56,14 @@ public class UtilityForm {
 			return false;
 		}
 		return true;
+	}
+
+	public static Utente createUtenteFromParams(String usernameInputParam, String nomeInputParam,
+			String cognomeInputParam, String dataDiNascitaStringParam) {
+
+		Utente result = new Utente(usernameInputParam, nomeInputParam, cognomeInputParam);
+		result.setDateCreated(parseDateArrivoFromString(dataDiNascitaStringParam));
+		return result;
 	}
 
 	public static LocalDate parseDateArrivoFromString(String dataDiNascitaStringParam) {

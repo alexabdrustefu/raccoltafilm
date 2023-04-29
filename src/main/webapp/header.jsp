@@ -6,9 +6,9 @@
 <link href="${pageContext.request.contextPath}/assets/css/bootstrap.min.css" rel="stylesheet" >
 
  <!-- Favicons -->
-<link rel="icon" href="${pageContext.request.contextPath}/assets/img/favicons/OIF.jfif" sizes="35x35" type="image/png">
-<link rel="icon" href="${pageContext.request.contextPath}/assets/img/favicons/OIF.jfif" sizes="16x16" type="image/png">
-<link rel="icon" href="${pageContext.request.contextPath}/assets/img/favicons/OIF.jfif">
+<link rel="icon" href="${pageContext.request.contextPath}/assets/img/favicons/0.jfif" sizes="32x32" type="image/png">
+<link rel="icon" href="${pageContext.request.contextPath}/assets/img/favicons/0.jfif" sizes="16x16" type="image/png">
+<link rel="icon" href="${pageContext.request.contextPath}/assets/img/favicons/0.jfif">
 <meta name="theme-color" content="#7952b3">
    
    

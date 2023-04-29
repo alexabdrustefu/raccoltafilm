@@ -10,7 +10,7 @@
 	
 	
 		 <!-- Custom styles for login -->
-	    <link href="assets/css/signin.css" rel="stylesheet">
+	    <link href="${pageContext.request.contextPath}/assets/css/signin.css" rel="stylesheet">
 	
 	</head>
 	
@@ -24,24 +24,24 @@
 		 		 ${errorMessage}
 			</div>
 		  
-		    <img class="mb-4" src="./assets/brand/OIF.jfif" alt="" width="80" height="80">
-		    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+		    <img class="mb-4" src="./assets/brand/0.jfif" alt="" width="100" height="100">
+		    <h1 class="h3 mb-3 fw-normal">Accedi:</h1>
 		
 		    <div class="form-floating">
 		      <input type="text" name="inputUsername" class="form-control" id="inputUsername" placeholder="username">
-		      <label for="inputUsername">Email address</label>
+		      <label for="inputUsername">Inserisci Email:</label>
 		    </div>
 		    <div class="form-floating">
 		      <input type="password" name="inputPassword" class="form-control" id="inputPassword" placeholder="Password">
-		      <label for="inputPassword">Password</label>
+		      <label for="inputPassword">Inserisci Password:</label>
 		    </div>
 		
 		    <div class="checkbox mb-3">
 		      <label>
-		        <input type="checkbox" value="remember-me"> Remember me
+		        <input type="checkbox" value="remember-me"> Ricordami
 		      </label>
 		    </div>
-		    <button class="w-100 btn btn-lg btn-outline-warning" type="submit">Sign in</button>
+		    <button class="w-100 btn btn-lg btn-success" type="submit">Accedi</button>
 		    <p class="mt-5 mb-3 text-muted">&copy; 2023-2024</p>
 		  </form>
 		</main>
