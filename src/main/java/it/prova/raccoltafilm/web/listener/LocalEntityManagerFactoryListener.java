@@ -75,7 +75,7 @@ public class LocalEntityManagerFactoryListener implements ServletContextListener
 		}
 
 		if (utenteServiceInstance.findByUsernameAndPassword("admin", "admin") == null) {
-			Utente admin = new Utente("admin", "admin", "Mario", "Rossi", LocalDate.now());
+			Utente admin = new Utente("admin", "admin", "Alexandru", "Stefu", LocalDate.now());
 			admin.setStato(StatoUtente.ATTIVO);
 			utenteServiceInstance.inserisciNuovo(admin);
 			utenteServiceInstance.aggiungiRuolo(admin,
@@ -83,7 +83,7 @@ public class LocalEntityManagerFactoryListener implements ServletContextListener
 		}
 
 		if (utenteServiceInstance.findByUsernameAndPassword("user", "user") == null) {
-			Utente user = new Utente("user", "user", "Pippo", "Bianchi",LocalDate.now());
+			Utente user = new Utente("user", "user", "Alexandru", "Stefu",LocalDate.now());
 			user.setStato(StatoUtente.ATTIVO);
 			utenteServiceInstance.inserisciNuovo(user);
 			utenteServiceInstance.aggiungiRuolo(user,
