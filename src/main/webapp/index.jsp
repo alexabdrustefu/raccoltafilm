@@ -48,11 +48,11 @@
 				  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" ></button>
 				</div>
 			    
-			     <div class="p-5 mb-4 bg-light rounded-3">
+			     <div class="p-5 mb-4 bg-dark rounded-3">
 				      <div class="container-fluid py-5">
 				        <h1 class="display-5 fw-bold">Benvenuto alla Raccolta Film</h1>
 				        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. </p>
-				        <a class="btn btn-primary btn-lg" href="PrepareSearchRegistaServlet">Vai a Ricerca Registi</a>
+				        <a class="btn btn-primary btn-warning" href="PrepareSearchRegistaServlet">Vai a Ricerca Registi</a>
 				      </div>
 			    </div>
 			    
@@ -62,7 +62,7 @@
 			  <div class="container px-4 py-5" id="featured-3">
 			    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 			      <div class="feature col">
-			        <div class="feature-icon bg-primary bg-gradient">
+			        <div class="feature-icon bg-warning bg-gradient">
 			          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
 			        </div>
 			        <h2>Ricerca Registi</h2>
@@ -73,7 +73,7 @@
 			        </a>
 			      </div>
 			      <div class="feature col">
-			        <div class="feature-icon bg-primary bg-gradient">
+			        <div class="feature-icon bg-warning bg-gradient">
 			          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
 			        </div>
 			        <h2>Inserisci Nuovo Regista</h2>
@@ -84,7 +84,7 @@
 			        </a>
 			      </div>
 			      <div class="feature col">
-			        <div class="feature-icon bg-primary bg-gradient">
+			        <div class="feature-icon bg-warning bg-gradient">
 			          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
 			        </div>
 			        <h2>Ricerca Film</h2>
