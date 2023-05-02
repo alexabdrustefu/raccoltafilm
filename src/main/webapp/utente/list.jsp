@@ -63,7 +63,11 @@
 										<td><fmt:parseDate value="${utenteItem.dateCreated}"
 												pattern="yyyy-MM-dd" var="localDateToBeParsed" type="date" />
 											<fmt:formatDate pattern="dd/MM/yyyy"
-												value="${localDateToBeParsed}" /></td>
+												value="${localDateToBeParsed}" />
+											</td>
+										<td>
+												<a class="btn  btn-sm btn-outline-secondary" href="${pageContext.request.contextPath}/admin/ExecuteVisualizzaUtenteServlet?idUtente=${utenteItem.id }">Visualizza</a>
+										</td>
 									</tr>
 								</c:forEach>
 							</tbody>
